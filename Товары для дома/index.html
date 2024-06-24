@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин товаров для дома</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Магазин товаров для дома</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#cart">Корзина (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Добро пожаловать в наш магазин</h2>
+            <p>Здесь вы найдете все необходимое для вашего дома.</p>
+        </section>
+        <section id="products">
+            <h2>Наши товары</h2>
+            <div class="product">
+                <img src="коврик каучук.png.png" alt="Товар 1">
+                <h3>Коврик для йоги из натурального каучука
+
+                </h3>
+                <p>Экологичный коврик для йоги, обеспечивает отличное сцепление и комфорт во время практики.</p>
+                <button class="add-to-cart" data-product="Товар 1">Цена:7990тг</button>
+            </div>
+            <div class="product">
+                <img src="ножи.png.png" alt="Товар 2">
+                <h3>Набор кухонных ножей из высококачественной стали
+
+                </h3>
+                <p>Включает кухонные ножи разного назначения с эргономичными ручками.</p>
+                <button class="add-to-cart" data-product="Товар 2">11990тг</button>
+            </div>
+            <div class="product">
+                <img src="плед шерстяной.png.png" alt="Товар 3">
+                <h3>Мягкий плед из натурального хлопка</h3>
+                <p>Уютный плед для холодных вечеров, мягкий и приятный на ощупь.</p>
+                <button class="add-to-cart" data-product="Товар 3">7590тг</button>
+            </div>
+            <div class="product">
+                <img src="4.png.png" alt="Товар 4">
+                <h3>Керамическая ваза с глянцевой отделкой</h3>
+                <p>Современный дизайн, подходит для декорирования и выставки цветов</p>
+                <button class="add-to-cart" data-product="Товар 4">4800тг</button>
+            </div>
+            <div class="product">
+                <img src="5.png.png" alt="Товар 5">
+                <h3>Набор полотенец из мягкого хлопка
+
+                </h3>
+                <p>Включает полотенца разных размеров, идеально для ванной или кухни.</p>
+                <button class="add-to-cart" data-product="Товар 5">5690тг</button>
+            </div>
+            <div class="product">
+                <img src="6.png.png" alt="Товар 6">
+                <h3>Декоративная подушка из натуральных материалов</h3>
+                <p>Подушка с современным узором, добавляет комфорт и стиль в интерьер.</p>
+                <button class="add-to-cart" data-product="Товар 6">3200тг</button>
+            </div>
+            <div class="product">
+                <img src="7.png.png" alt="Товар 7">
+                <h3>Мраморный поднос для сервировки</h3>
+                <p>Элегантный и функциональный поднос, идеально подходит для сервировки стола.</p>
+                <button class="add-to-cart" data-product="Товар 7">13990тг</button>
+            </div>
+            <div class="product">
+                <img src="8.png.png" alt="Товар 8">
+                <h3>Светильник настольный с регулируемым светом</h3>
+                <p> Стильный и удобный настольный светильник для чтения и работы.</p>
+                <button class="add-to-cart" data-product="Товар 8">8990тг</button>
+            </div>
+            <div class="product">
+                <img src="9.png.png" alt="Товар 9">
+                <h3>Искусственный коврик для спальни</h3>
+                <p>Пушистый коврик из искусственного меха, создает уют и комфорт в спальне.</p>
+                <button class="add-to-cart" data-product="Товар 9">6990тг</button>
+            </div>
+            <div class="product">
+                <img src="10.png.png" alt="Товар 10">
+                <h3>Столовый набор из нержавеющей стали</h3>
+                <p>Комплект столовых приборов с модным дизайном и удобной эргономикой.</p>
+                <button class="add-to-cart" data-product="Товар 10">20000тг</button>
+            </div>
+            <div class="product">
+                <img src="11.png.png" alt="Товар 11">
+                <h3>Робот-пылесос "Смарт Клинер"
+
+                </h3>
+                <p>Автономный робот-пылесос с функцией автоматической уборки и сенсорами избегания препятствий.</p>
+                <button class="add-to-cart" data-product="Товар 11">52990тг</button>
+            </div>
+            <div class="product">
+                <img src="12.png.png" alt="Товар 12">
+                <h3>Умная колонка "Yandex Alisa"</h3>
+                <p> Умная колонка с поддержкой голосового управления, встроенным помощником и возможностью потокового воспроизведения музыки.</p>
+                <button class="add-to-cart" data-product="Товар 12">72990тг</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Адрес: Проспект Абилхайрхана 24, Актобе, Казахстан</p>
+            <p>Телефон: +7 (123) 456-78-90</p>
+            <p>Email: @AdiletAgayTop.com</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="insta.png" alt="Instagram"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>.</p>
+    </footer>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
